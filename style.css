@@ -1,0 +1,151 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    background:rgb(204, 204, 207);
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    
+}
+.info {
+    display: flex;
+}
+@media (max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.text1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    margin-left: 20px;
+}
+.text2 {
+    margin-left: 20px;
+    font-style: italic;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.text3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.text4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+.me {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgba(43, 44, 44, 0.575);
+    display: block;
+    margin: 0px 20px 20px;
+}
+.name {
+    display: block;
+}
+.img {
+    display: inline;
+    margin: 0px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(33, 33, 172);
+    text-decoration: underline;
+}
+.table1 {
+    border: 2px solid #e6c5d7;
+    margin: 15px 40px;
+    border-radius: 25px;
+}
+.table {
+    width: 100%;
+    background: #e6c5d7;
+    border-radius: 25px;
+}
+.table td {
+    text-align: left;
+    padding: 10px 10px;
+}
+.table td:hover {
+    background: rgb(197, 153, 175);
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: rgb(116, 116, 112);
+}
+.hobby {
+    margin: 40px 15px;
+    padding: 20px 15px;
+    background: #e6c5d7;
+    border-radius: 25px;
+
+}
+.hobby li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+}
+.hobby ul {
+    list-style: none;
+}
+.form-group input , .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    padding: 8px;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+@media (max-width: 600px) {
+    .form-row {
+        display: block;
+        
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.btn:hover {
+    background: gray;
+}
+.btn {
+    opacity: 0.8;
+    border: 0;
+    padding: 10px;
+    background: black;
+    color: beige;
+    cursor: pointer;
+}
+
