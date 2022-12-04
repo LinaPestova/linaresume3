@@ -1,3 +1,3 @@
 # Мое резюме вы можете посмотреть здесь
 
-[Мое резюме](http://127.0.0.1:5500/index.html)
+[Мое резюме](https://linapestova.github.io/linaresume3/)
